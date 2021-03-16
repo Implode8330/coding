@@ -11,7 +11,7 @@ class data_generator():
     def __init__(self, length, SNRdb, seed=None):
         self.length = length
         self.SNRdb = SNRdb
-        self.path = f"/home/amydos/Dropbox/Exjobb/coding/testing/data/SNRdb_{SNRdb}_{length*2}_bit/"
+        self.path = f"/home/amydos/data/SNRdb_{SNRdb}_{length*2}_bit/"
         # self.path = "/home/amydos/Dropbox/Exjobb/coding/testing/data/amp_1_var_1_32_bit/"
         if seed != None:
             r.seed(seed)
